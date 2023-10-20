@@ -1,7 +1,9 @@
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
+Plug 'godlygeek/tabular'
+
+Plug 'iamcco/markdown-preview.vim'
 Plug 'ferrine/md-img-paste.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'majutsushi/tagbar'
@@ -12,6 +14,7 @@ Plug 'flazz/vim-colorschemes'
 Plug 'easymotion/vim-easymotion'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'jspringyc/vim-word'
 
 call plug#end()
 
